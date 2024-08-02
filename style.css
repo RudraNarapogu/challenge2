@@ -1,0 +1,71 @@
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 300px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.location {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 14px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link-button.github {
+    background-color: #4caf50;
+}
+
+.link-button:hover {
+    background-color: #555;
+}
+
+.link-button.github:hover {
+    background-color: #45a049;
+}
